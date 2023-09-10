@@ -1,6 +1,9 @@
 .accordion__item {
     width: 50rem;
-    padding: 32px 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 20px;
     align-items: center;
     align-self: center;
     border-radius: 10px;
