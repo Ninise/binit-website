@@ -1,0 +1,19 @@
+.diagonal-images {
+    display: flex;
+    flex-direction: row;
+    margin-left: 110px;
+}
+  
+.image {
+    width: 260px;
+    height: 500px; 
+    margin-left: -110px;
+}
+
+.image-2 {
+    margin-top: 70px;
+}
+
+.image-3 {
+    margin-top: 140px;
+}

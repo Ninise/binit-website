@@ -1,0 +1,21 @@
+.store__button_container {
+    display: flex;
+    padding: 8px 16px;
+    align-items: center;
+    gap: 8px;
+    width: 12.5rem;
+    border-radius: 6px;
+    background: #000;
+}
+
+.image__logo {
+    /* width: 82px; */
+}
+
+.image__text {
+    width: 125px;
+}
+
+.store__button_container:hover {
+    background: var(--title-color-orange);
+}
