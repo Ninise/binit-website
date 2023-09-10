@@ -4,6 +4,7 @@ import { Header } from './components/header/Header';
 import { Home } from './components/home/Home';
 import { Features } from './components/features/Features';
 import { HowItWorks } from './components/how_it_works/HowItWorks';
+import { Mission } from './components/mission/Mission';
 
 export const App = () => {
   return (
@@ -13,6 +14,7 @@ export const App = () => {
         <Home />
         <Features />
         <HowItWorks />
+        <Mission />
       </main>
     </div>
   );
