@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './header.css';
+import logoImage from '../../assets/header_logo.svg';
 
 export const Header = () => {
   /*=============== Header Background ===============*/
@@ -25,7 +26,10 @@ export const Header = () => {
         <a
           href='index.html'
           className='nav__logo'>
-          Binit
+          <img
+            src={logoImage}
+            alt='Main Logo'
+          />
         </a>
 
         <div className={showMenu ? 'nav__menu show-menu' : 'nav__menu'}>
