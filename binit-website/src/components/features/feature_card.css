@@ -1,0 +1,34 @@
+.feature__card_container {
+    display: flex;
+    padding: 16px 30px 32px 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    max-width: 20rem;
+    max-height: 15rem;
+
+    border-radius: 16px;
+    border: 1px solid rgba(221, 221, 221, 0.50);
+    background: #FFF;
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.10);
+}
+
+.card__icon {
+    width: 2.15rem;
+    height: 2.15rem;
+}
+
+.feature__title {
+    color: var(--title-color-orange);
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-semi-bold);
+}
+
+.feature__description {
+    color: var(--title-color);
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-normal);
+    text-align: center;
+}
