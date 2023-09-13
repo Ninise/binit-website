@@ -11,7 +11,7 @@ const ContactTextField = ({
 }) => {
   return (
     <section
-      className='contact_textfield section'
+      className='contact_textfield'
       id='contact_textfield'>
       <div className='contact_textfield__container'>
         <label className='contact_textfield__title'>{title}</label>

@@ -71,6 +71,12 @@ export const ContactUs = () => {
                   data='@binit_app'
                 />
               </div>
+
+              {/* <div className='contact_us__data_row'>
+                <p className='contact_us__description'>
+                  Made in Canada by WhaleScale
+                </p>
+              </div> */}
             </div>
           </div>
 

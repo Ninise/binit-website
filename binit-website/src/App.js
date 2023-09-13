@@ -7,6 +7,7 @@ import { HowItWorks } from './components/how_it_works/HowItWorks';
 import { Mission } from './components/mission/Mission';
 import { Questions } from './components/questions/Questions';
 import { ContactUs } from './components/contact_us/ContactUs';
+import { Footer } from './components/footer/Footer';
 
 export const App = () => {
   return (
@@ -19,6 +20,7 @@ export const App = () => {
         <Mission />
         <Questions />
         <ContactUs />
+        <Footer />
       </main>
     </div>
   );
