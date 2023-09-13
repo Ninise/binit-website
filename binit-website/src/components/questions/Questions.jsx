@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './questions.css';
 
 import Accordion from './Accordion';

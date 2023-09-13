@@ -1,0 +1,19 @@
+.contact_data__container {
+    flex-direction: column;
+    
+}
+
+.contact_data__title {
+    color: var(--title-color-orange);
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    align-self: flex-start;
+}
+
+.contact_data__description {
+    color: var(--title-color);
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-normal);
+    margin-top: 5px;
+    align-self: flex-start;
+}

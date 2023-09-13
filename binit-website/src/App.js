@@ -6,6 +6,7 @@ import { Features } from './components/features/Features';
 import { HowItWorks } from './components/how_it_works/HowItWorks';
 import { Mission } from './components/mission/Mission';
 import { Questions } from './components/questions/Questions';
+import { ContactUs } from './components/contact_us/ContactUs';
 
 export const App = () => {
   return (
@@ -17,6 +18,7 @@ export const App = () => {
         <HowItWorks />
         <Mission />
         <Questions />
+        <ContactUs />
       </main>
     </div>
   );

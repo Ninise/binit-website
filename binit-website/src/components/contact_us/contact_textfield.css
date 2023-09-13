@@ -1,0 +1,28 @@
+.contact_textfield {
+    display: flex;
+    width: 100%;
+}
+
+.contact_textfield__container {
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+}
+
+.contact_textfield__title {
+    color: var(--title-color);
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    margin-bottom: 10px;
+}
+
+.contact_textfield__input {
+    padding: 10px 16px;
+    border-radius: 6px;
+    border: 1px solid #E4E4E7;
+}
+
+.contact_textfield__input_one_line {
+    height: 50px;
+    flex: 1;
+}
