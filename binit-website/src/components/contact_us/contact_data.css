@@ -1,6 +1,5 @@
 .contact_data__container {
-    flex-direction: column;
-    
+    flex-direction: column;   
 }
 
 .contact_data__title {

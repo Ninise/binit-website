@@ -29,13 +29,13 @@ export const ContactUs = () => {
     <section
       className='contact_us section'
       id='contact_us'>
-      <div className='contact_us__container container grid'>
+      <div className='contact_us__container '>
         <div className='contact_us__content grid'>
           <div className='contact_us__data'>
             <h1 className='contact_us__title'>Contact Us</h1>
             <p className='contact_us__description'>
               Whether you have questions, suggestions, or would like to
-              collaborate, we would love to hear from you.{' '}
+              collaborate, we would love to hear from you.
             </p>
             <p className='contact_us__description'>
               Don't hesitate to get in touch let's make a difference!
@@ -72,11 +72,11 @@ export const ContactUs = () => {
                 />
               </div>
 
-              {/* <div className='contact_us__data_row'>
-                <p className='contact_us__description'>
+              <div>
+                <p className='contact_us__made_in_cad'>
                   Made in Canada by WhaleScale
                 </p>
-              </div> */}
+              </div>
             </div>
           </div>
 

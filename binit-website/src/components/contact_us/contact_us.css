@@ -12,17 +12,20 @@
 .contact_us__data {
     flex-direction: column;
     display: flex;
+    margin-right: 1.5rem;
 }
 
 .contact_us__data_rows {
+    flex-direction: column;
+    display: flex;
     gap: 1rem;
+    margin-top: 2rem;
 }
 
 .contact_us__data_row {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1rem; 
     display: grid;
-    align-items: center;
     height: 4rem;
 }
 
@@ -34,9 +37,16 @@
 
 .contact_us__description {
     color: var(--title-color);
-    font-size: var(--h3-font-size);
-    font-weight: var(--font-semi-normal);
+    font-size: 1.1rem;
+    font-weight: var(--font-normal);
     margin-top: var(--mb-0-5);
+}
+
+.contact_us__made_in_cad {
+    color: var(--title-color);
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-normal);
+    margin-top: var(--mb-1);
 }
 
 .contact_us__button {
