@@ -8,12 +8,12 @@ const StoreButton = ({ image, storeTextImage }) => {
       <img
         src={image}
         alt='store img'
-        className='image__logo'
+        className='home_image__logo'
       />
       <img
         src={storeTextImage}
         alt='store text img'
-        className='image__text'
+        className='home_image__text'
       />
     </div>
   );

@@ -1,0 +1,23 @@
+.footer_store__button_container {
+    height: 40px;
+    display: flex;
+    padding: 10px 22px;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    border-radius: 6px;
+    border: 1px solid #FFF;
+}
+
+.image__logo {
+    height: 22px;
+    width: 22px;
+}
+
+.image__text {
+    width: 60px;
+}
+
+.footer_store__button_container:hover {
+    background: var(--title-color);
+}

@@ -8,13 +8,16 @@
     background: #000;
 }
 
-.image__logo {
-    /* width: 82px; */
+.home_image__logo {
+    height: 36px;
+    width: 36px;
 }
 
-.image__text {
+.home_image__text {
     width: 125px;
+    height: 40px;
 }
+
 
 .store__button_container:hover {
     background: var(--title-color-orange);
