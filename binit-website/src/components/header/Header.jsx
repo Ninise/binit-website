@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 import './header.css';
+
 import logoImage from '../../assets/header_logo.svg';
+import menuImage from '../../assets/ic_menu.svg';
+
+import { Footer } from '../../components/footer/Footer';
 
 export const Header = () => {
   /*=============== Header Background ===============*/
@@ -22,7 +26,7 @@ export const Header = () => {
 
   return (
     <div className='header'>
-      <nav className='nav container'>
+      <nav className='nav'>
         <a
           href='index.html'
           className='nav__logo'>
@@ -88,12 +92,21 @@ export const Header = () => {
             onClick={() => setShowMenu(!showMenu)}></i>
         </div>
 
-        <div
-          className='nav__toggle'
+        <button
+          class='image-button'
           onClick={() => setShowMenu(!showMenu)}>
-          <i className='uil uil-apps'></i>
-        </div>
+          <img
+            src={menuImage}
+            alt='menu img'
+          />
+        </button>
       </nav>
+
+      {showMenu ? (
+        <Footer className={showMenu ? 'nav_footer_on' : 'nav_footer_off'} />
+      ) : (
+        <div></div>
+      )}
     </div>
   );
 };
