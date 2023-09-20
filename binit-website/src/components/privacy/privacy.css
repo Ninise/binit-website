@@ -1,0 +1,12 @@
+.privacy__container {
+    width: 100% !important;
+    padding-top: 2rem;
+ }
+ 
+.privacy__content {
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+    gap: 3rem;
+    margin: 0 15% 0 15%;
+}

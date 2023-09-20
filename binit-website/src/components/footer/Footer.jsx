@@ -39,12 +39,16 @@ export const Footer = () => {
             </div>
 
             <div className='footer_privacy_terms_row'>
-              <button className='footer_transparent_button'>
+              <a
+                className='footer_transparent_button'
+                href='/privacy'>
                 Privacy Policy
-              </button>
-              <button className='footer_transparent_button'>
+              </a>
+              <a
+                className='footer_transparent_button'
+                href='/terms'>
                 Terms & Conditions
-              </button>
+              </a>
               <button className='footer_transparent_button'>Support Us</button>
             </div>
           </div>

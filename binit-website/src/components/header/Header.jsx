@@ -28,7 +28,7 @@ export const Header = () => {
     <div className='header'>
       <nav className='nav'>
         <a
-          href='index.html'
+          href='/'
           className='nav__logo'>
           <img
             src={logoImage}

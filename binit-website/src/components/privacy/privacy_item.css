@@ -1,0 +1,18 @@
+.privacy_item_container {
+    flex-direction: column;
+    display: flex;
+}
+
+.privacy_item_title {
+    color: var(--title-color-orange);
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-semi-bold);
+}
+
+.privacy_item_subtitle {
+    color: var(--title-color);
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-normal);
+    text-align: start;
+    padding-top: 1rem;
+}
