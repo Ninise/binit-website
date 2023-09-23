@@ -18,7 +18,7 @@
   --container-main-color: hsla(0, 0%, 100%, 1);
 
   /*========== Font and typography ==========*/
-  --body-font: "Poppins", sans-serif;
+  --body-font: "Inter", sans-serif;
 
   /*.5rem = 8px | 1rem = 16px ...*/
   --extra-big-font-size: 3.75rem;
@@ -96,11 +96,13 @@ body {
   color: var(--text-color);
 }
 
+p,
 h1,
 h2,
 h3 {
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
+  font-family: var(--body-font);
 }
 
 ul {

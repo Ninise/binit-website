@@ -20,15 +20,45 @@
     height: 2.15rem;
 }
 
-.feature__title {
+.feature__title_card {
     color: var(--title-color-orange);
     font-size: var(--normal-font-size);
     font-weight: var(--font-semi-bold);
 }
 
-.feature__description {
+.feature__description_card {
     color: var(--title-color);
     font-size: var(--normal-font-size);
     font-weight: var(--font-normal);
     text-align: center;
+}
+
+/* For tablet devices */
+@media screen and (max-width: 1200px) {
+
+    .feature__card_container {
+        width: 13rem;
+        height: 13rem;
+        padding: 5px 23px 22px 23px;
+    }
+
+    .feature__description_card {
+        font-size: var(--normal-font-size);
+    }
+
+    .card__icon {
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+
+    .feature__title_card {
+        font-size: var(--normal-font-size);
+        
+    }
+
+    .feature__description_card {
+        font-size: var(--small-font-size);
+    }
+
+  
 }

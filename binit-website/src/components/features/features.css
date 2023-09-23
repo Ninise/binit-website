@@ -30,3 +30,27 @@
     font-weight: var(--font-normal);
     text-align: center;
 }
+
+
+
+/* For tablet devices */
+@media screen and (max-width: 1200px) {
+
+    .features__container {
+        padding: 3rem;
+    }
+
+    .features__cards_container {
+        gap: 1rem;
+    }
+
+    .features__title {
+        font-size: var(--h2-font-size);
+    }
+
+    .features__description {
+        font-size: var(--normal-font-size);
+    }
+
+  
+}

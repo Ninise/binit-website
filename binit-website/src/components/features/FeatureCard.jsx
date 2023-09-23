@@ -10,8 +10,8 @@ const FeatureCard = ({ icon, title, text }) => {
         alt='card icon'
         className='card__icon'
       />
-      <h4 className='feature__title'>{title}</h4>
-      <p className='feature__description'>{text}</p>
+      <h4 className='feature__title_card'>{title}</h4>
+      <p className='feature__description_card'>{text}</p>
     </div>
   );
 };
