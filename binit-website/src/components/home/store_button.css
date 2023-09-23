@@ -22,3 +22,21 @@
 .store__button_container:hover {
     background: var(--title-color-orange);
 }
+
+
+/* For tablet devices */
+@media screen and (max-width: 1200px) {
+    .store__button_container {
+        width: 8.5rem;
+    }
+
+    .home_image__logo {
+        height: 22px;
+        width: 22px;
+    }
+
+    .home_image__text {
+        width: 80px;
+        height: 25px;
+    }
+}

@@ -102,11 +102,11 @@ export const Header = () => {
         </button>
       </nav>
 
-      {showMenu ? (
+      {/* {showMenu ? (
         <Footer className={showMenu ? 'nav_footer_on' : 'nav_footer_off'} />
       ) : (
         <div></div>
-      )}
+      )} */}
     </div>
   );
 };
