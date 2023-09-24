@@ -56,3 +56,20 @@
 
   
 }
+
+
+/* For phones devices */
+@media screen and (max-width: 600px) {
+
+    .features__container {
+        padding-top: 7rem;
+        padding-bottom: 7rem;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .features__cards_container {
+        flex-direction: column;
+        display: flex;
+    }
+}

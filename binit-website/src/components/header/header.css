@@ -163,7 +163,13 @@
   }
 
   /* For small devices */
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
+
+    .nav__logo {
+        width: 90px;
+        height: auto;
+    }
+    
     .nav__menu {
         padding: 2rem 0.25rem 4rem;
     }    

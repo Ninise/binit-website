@@ -43,7 +43,6 @@
 @media screen and (min-width: 2300px) {
     .home__content {
         grid-template-columns: 1fr 1fr;
-        
         align-items: center;
         margin: 0 25% 0 25%;
     }
@@ -71,6 +70,39 @@
 
 
     .home__store_buttons {
+        display: flex;
+        flex-direction: row;
+        grid-gap: 1rem;
+        margin-top: 1.5rem;
+    }
+
+}
+
+/* For phones devices */
+@media screen and (max-width: 600px) {
+
+    .home__content {
+        flex-direction: column-reverse;
+        display: flex;
+        align-items: center;
+        margin: 0 10%;
+    }
+
+    .home__title {
+        margin-top: 10%;
+        font-size: var(--h1-font-size);
+        text-align: center;
+    }
+
+    .home__description {
+        font-size: var(--normal-font-size);
+        text-align: center;
+    }
+
+
+    .home__store_buttons {
+        justify-content: center;
+        align-items: center;
         display: flex;
         flex-direction: row;
         grid-gap: 1rem;

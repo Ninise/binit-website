@@ -84,3 +84,38 @@
     }
   
 }
+
+/* For phone devices */
+@media screen and (max-width: 600px) {
+
+    .footer_internal {
+        padding: 0 7%;
+    }
+
+    .footer_container {
+        height: auto;
+        flex-direction: column;
+        display: flex;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .footer_buttons_row {
+        flex-direction: column-reverse;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        
+    }
+
+    .footer_store_buttons_row {
+        flex-direction: column;
+        display: flex;
+    }
+
+    .footer_privacy_terms_row {
+        align-items: start;
+    }
+
+   
+  
+}

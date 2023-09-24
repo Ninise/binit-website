@@ -90,3 +90,15 @@
     }
   
 }
+
+/* For tablet devices */
+@media screen and (max-width: 600px) {
+
+    .mission__content {
+        margin: 10% 5% 10% 5%;   
+    }
+    
+    .about__image {
+        padding-top: 0;
+    }
+}

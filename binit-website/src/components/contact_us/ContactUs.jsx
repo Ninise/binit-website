@@ -45,11 +45,11 @@ export const ContactUs = () => {
               <div className='contact_us__data_row'>
                 <ContactData
                   title='Email'
-                  data='name@email.com'
+                  data='contact@binit.pro'
                 />
                 <ContactData
                   title='LinkedIn'
-                  data='name@email.com'
+                  data='contact@binit.pro'
                 />
                 <ContactData
                   title=''
