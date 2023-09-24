@@ -6,10 +6,10 @@ import image from '../../assets/about.jpg';
 export const Mission = () => {
   return (
     <section
-      className='mission section'
+      className='mission'
       id='mission'>
-      <div className='mission__container container grid'>
-        <div className='mission__content grid'>
+      <div className='mission__container'>
+        <div className='mission__content'>
           <img
             src={image}
             alt='about img'

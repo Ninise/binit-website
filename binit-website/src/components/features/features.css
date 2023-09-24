@@ -34,14 +34,15 @@
 
 
 /* For tablet devices */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
 
     .features__container {
-        padding: 3rem;
+        padding: 5rem;
     }
 
     .features__cards_container {
         gap: 1rem;
+        
     }
 
     .features__title {
@@ -50,6 +51,7 @@
 
     .features__description {
         font-size: var(--normal-font-size);
+        padding-top: 0.5rem;
     }
 
   

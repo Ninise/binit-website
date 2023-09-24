@@ -73,3 +73,25 @@
     background: #FFF;
     box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.10);
 }
+
+
+/* For tablet devices */
+@media screen and (max-width: 1200px) {
+
+    .contact_us__container {
+        padding: 0rem;
+    }
+
+    .contact_us__content {
+        flex-direction: column;
+        display: flex;
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+        margin: 0 16% 0 16%;
+    }
+
+    .contact_us__form {
+        margin-top: 2rem;
+    }
+  
+}

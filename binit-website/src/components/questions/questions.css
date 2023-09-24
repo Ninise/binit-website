@@ -8,6 +8,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    grid-gap: 1.5rem;
 }
 
 .questions__title {
@@ -15,4 +16,3 @@
     font-size: var(--h1-font-size);
     font-weight: var(--font-semi-bold);
 }
-

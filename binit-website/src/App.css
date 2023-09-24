@@ -4,7 +4,7 @@
 /*=============== VARIABLES CSS ===============*/
 :root {
   --header-height: 3rem;
-
+  
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
   --hue: 0;
@@ -68,6 +68,7 @@
 }
 
 /*=============== BASE ===============*/
+
 * {
   margin: 0;
   padding: 0;
@@ -96,7 +97,6 @@ body {
   color: var(--text-color);
 }
 
-p,
 h1,
 h2,
 h3 {

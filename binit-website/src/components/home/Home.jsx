@@ -13,7 +13,7 @@ import googleText from '../../assets/google_btn_text.png';
 export const Home = () => {
   return (
     <section
-      className='home section'
+      className='home'
       id='home'>
       <div className='home__container container grid'>
         <div className='home__content grid'>

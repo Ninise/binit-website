@@ -24,6 +24,7 @@
     color: var(--title-color-orange);
     font-size: var(--normal-font-size);
     font-weight: var(--font-semi-bold);
+    text-align: center;
 }
 
 .feature__description_card {
@@ -53,7 +54,7 @@
 
     .feature__title_card {
         font-size: var(--normal-font-size);
-        
+        white-space: nowrap;
     }
 
     .feature__description_card {

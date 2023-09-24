@@ -61,3 +61,30 @@
         margin: 0 20% 0 15%;
     }
 }
+
+/* For tablet devices */
+@media screen and (max-width: 1200px) {
+
+    .mission__container {
+        padding: 1rem;
+    }
+
+    .mission__content {
+        flex-direction: column-reverse;
+        display: flex;
+        align-items: center;
+        margin: 10% 10% 10% 10%;
+    }
+
+    .about__title {
+        font-size: var(--h2-font-size);
+        text-align: start;
+    }
+
+    .about__image {
+        width: 100%;
+        height: auto;
+        padding-top: 2rem;
+    }
+  
+}

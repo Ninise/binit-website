@@ -27,10 +27,10 @@ export const ContactUs = () => {
 
   return (
     <section
-      className='contact_us section'
+      className='contact_us'
       id='contact_us'>
       <div className='contact_us__container '>
-        <div className='contact_us__content grid'>
+        <div className='contact_us__content'>
           <div className='contact_us__data'>
             <h1 className='contact_us__title'>Contact Us</h1>
             <p className='contact_us__description'>
@@ -74,7 +74,7 @@ export const ContactUs = () => {
 
               <div>
                 <p className='contact_us__made_in_cad'>
-                  Made in Canada by WhaleScale
+                  Made in Canada 🇨🇦 by WhaleScale
                 </p>
               </div>
             </div>

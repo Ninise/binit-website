@@ -52,7 +52,8 @@
 @media screen and (max-width: 1200px) {
 
     .home__container {
-        padding-top: 2.5rem;
+        padding-top: 7.5rem;
+        padding-bottom: 4.5rem;
     }
 
     .home__content {

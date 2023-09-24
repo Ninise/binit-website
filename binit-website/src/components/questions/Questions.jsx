@@ -6,10 +6,10 @@ import Accordion from './Accordion';
 export const Questions = () => {
   return (
     <section
-      className='questions section'
+      className='questions'
       id='questions'>
-      <div className='questions__container container grid'>
-        <div className='questions__content grid'>
+      <div className='questions__container'>
+        <div className='questions__content'>
           <h3 className='questions__title'>Frequently Asked Questions</h3>
 
           <Accordion

@@ -9,10 +9,10 @@ import BookIcon from '../../assets/ic_card_book.svg';
 export const Features = () => {
   return (
     <section
-      className='features section'
+      className='features'
       id='features'>
-      <div className='features__container container grid'>
-        <div className='features__content grid'></div>
+      <div className='features__container'>
+        <div className='features__conten'></div>
 
         <h2 className='features__title'>
           At BinIt!, we are passionate about promoting proper waste <br></br>{' '}

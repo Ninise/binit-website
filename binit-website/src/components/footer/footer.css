@@ -68,3 +68,19 @@
     font-weight: var(--font-normal);
     margin-bottom: var(--mb-1);
 }
+
+/* For tablet devices */
+@media screen and (max-width: 1200px) {
+
+    .footer_privacy_terms_row {
+        flex-direction: column;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+    }
+
+    .footer_internal {
+        margin: 0 10% 0 10%;
+    }
+  
+}

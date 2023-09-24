@@ -4,10 +4,10 @@ import './how_it_works.css';
 export const HowItWorks = () => {
   return (
     <section
-      className='how_it_works section'
+      className='how_it_works'
       id='how_it_works'>
-      <div className='how_it_works__container container grid'>
-        <div className='how_it_works__content grid'>
+      <div className='how_it_works__container'>
+        <div className='how_it_works__content'>
           <div className='how_it_works__text'>
             <h2 className='how_it_works__title'>
               Your small habit leads to big changes
