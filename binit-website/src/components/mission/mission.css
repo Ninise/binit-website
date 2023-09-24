@@ -6,14 +6,16 @@
 
 .mission__content {
     grid-template-columns: 1fr 1fr;
+    display: grid;
+    grid-gap: 4rem;
     justify-content: flex-start;
     align-items: flex-start;
     margin: 0 12% 0 12%;
 }
 
 .about__image {
-    width: 533px;
-    height: 400px;
+    width: 100%;
+    height: auto;
 }
 
 .about__data {
@@ -25,9 +27,9 @@
     color: var(--title-color);
     font-size: var(--h1-font-size);
     font-weight: var(--font-semi-bold);
-    margin-bottom: var(--mb-1);
+    margin-bottom: var(--mb-0-5);
     text-align: start;
-    margin-bottom: 0.5rem;
+    
 }
 
 .about__text {
@@ -36,7 +38,7 @@
     font-weight: var(--font-normal);
     text-align: start;
     line-height: 150%; 
-    margin-top: 0.5rem;
+    
 }
 
 .about__subtitle {

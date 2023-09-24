@@ -1,7 +1,7 @@
 .diagonal-images {
     display: flex;
     flex-direction: row;
-    margin-left: 50px;
+    margin-left: 30%;
 }
   
 .image {

@@ -1,5 +1,5 @@
 .accordion__item {
-    width: 50rem;
+    width: 100%;
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 30px;
@@ -42,7 +42,6 @@
 @media screen and (max-width: 1200px) {
 
     .accordion__item {
-        width: 100%;
         padding-top: 20px;
         padding-bottom: 20px;
         padding-left: 30px;

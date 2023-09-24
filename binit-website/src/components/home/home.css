@@ -1,11 +1,12 @@
 .home__container {
     width: 100% !important;
-    padding-top: 4rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
  }
  
 .home__content {
     grid-template-columns: 1fr 1fr;
-    grid-gap: 1rem; 
+    display: grid;
     align-items: center;
     margin: 0 15% 0 15%;
 }
@@ -20,7 +21,7 @@
     font-size: var(--big-font-size);
     font-weight: var(--font-semi-bold);
     margin-bottom: var(--mb-0-25);
-    
+    line-height: 110%;
 }
 
 .home__description {

@@ -21,6 +21,7 @@
 
 .store__button_container:hover {
     background: var(--title-color-orange);
+    cursor: pointer;
 }
 
 

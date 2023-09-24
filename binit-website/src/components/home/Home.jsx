@@ -15,18 +15,15 @@ export const Home = () => {
     <section
       className='home'
       id='home'>
-      <div className='home__container container grid'>
-        <div className='home__content grid'>
-          <DiagonalImages />
-
+      <div className='home__container'>
+        <div className='home__content'>
           <div className='home__data'>
             <h1 className='home__title'>
               Let's sort it out,<br></br>bin it without a doubt!
             </h1>
 
             <p className='home__description'>
-              We prepared for you a search, engaging educational games, and{' '}
-              <br></br>
+              We prepared for you a search, engaging educational games, and
               informative articles.
             </p>
 
@@ -46,6 +43,8 @@ export const Home = () => {
               />
             </div>
           </div>
+
+          <DiagonalImages />
         </div>
       </div>
     </section>

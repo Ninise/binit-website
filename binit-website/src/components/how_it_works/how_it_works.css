@@ -2,14 +2,16 @@
     width: 100% !important;
     justify-content: center;
     align-items: center;
-    padding: 3.5rem;
+    margin-top: 8%;
+    margin-bottom: 8%;
 }
 
 .how_it_works__content {
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 5rem; 
+    grid-template-columns: 1fr 2fr;
+    display: grid;
     justify-content: center;
     align-items: flex-start;
+    grid-gap: 3rem;
     margin: 0 15% 0 15%;
 }
 
@@ -35,8 +37,8 @@
 }
 
 .how_it_works__video {
-    width: 560px;
-    height: 315px;
+    width: 100%;
+    height: 500px;
 }
 
 /*=============== BREAKPOINTS ===============*/
